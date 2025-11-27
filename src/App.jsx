@@ -13,7 +13,7 @@ function App() {
   const [newItem, setNewItem] = useState('');
   const [search, setSearch] = useState('');
   const [fetchError, setFetchError] = useState(null)
-  const API_URL = "http://localhost:3500/items";
+  const API_URL = "/public/data/db.json";
   const [isLoading, setIsLoading] = useState(true);
 
   // Read functionality
